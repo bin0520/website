@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background-color: #0796E9; */
+    padding: 40px 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+}
+
+.box ul {
+    display: flex;
+    align-items: center;
+}
+
+.box ul li {
+    padding: 5px 0;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.box ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.box2 {
+    color: #000000;
+    margin-right: 30px;
+    width: 34%;
+    font-size: 1.6vw;
+}
+
+.box3 {
+    background-color: #0796E9;
+    padding: 15px 25px;
+    margin-right: 30px;
+}
+
+.box3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box3:hover {
+    background-color: #39ABED;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.bottom span {
+    font-size: 2vw;
+}
+
+.active {
+    border-bottom: 1px solid #000000;
+}
+
+
+main {
+    width: 42%;
+    margin: 0 auto;
+}
+
+.jox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border-bottom: 1px dashed #E1E4E7;
+    padding-bottom: 60px;
+}
+
+.jox_span {
+    font-size: 3vw;
+}
+
+.jox_span2 {
+    font-size: 0.8vw;
+    margin-top: 50px;
+}
+
+.jox_span3 {
+    font-size: 0.8vw;
+    margin-top: 10px;
+}
+
+.jox2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 1px dashed #E1E4E7;
+    padding-bottom: 50px;
+}
+
+.jox3 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.jox4 {
+    width: 50%;
+}
+
+.jox4 img {
+    width: 100%;
+}
+
+.jox3_span {
+    font-size: 1.2vw;
+}
+
+.jox3_span2 {
+    margin-top: 30px;
+    /* text-align: justify; */
+}
+
+.jox3_span2 a {
+    color: #189DEB;
+    font-weight: bold;
+}
+
+.jox3_span4 {
+    color: #189DEB;
+}
+
+.jox3_span3 {
+    font-weight: bold;
+}
+
+
+footer {
+    width: 42%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+footer ul:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li a {
+    color: #0796E9;
+    font-size: 1.2vw;
+    padding: 0 20px;
+}
