@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    /* background-color: #0796E9; */
+    /*background-color: #0796E9;*/
     padding: 40px 20px;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .box3 {
-    background-color: #0796E9;
+    background-color: #9AA79C;
     padding: 15px 25px;
     margin-right: 30px;
 }
@@ -134,7 +134,7 @@ hr {
 }
 
 .kox3 button {
-    background-color: #0796E9;
+    background-color: #261C16;
     color: #fff;
     padding: 20px 50px;
     border: none;
@@ -170,7 +170,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #0796E9;
-    font-size: 1.2vw;
+    color: #5A463F;
+    font-size: 0.8vw;
     padding: 0 20px;
 }
