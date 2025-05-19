@@ -178,6 +178,19 @@ main {
     border-radius: 10px;
 }
 
+.button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #0796E9;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 .aka {
     color: orange;
     font-weight: bold;
@@ -231,4 +244,42 @@ footer ul li a {
     color: #0796E9;
     font-size: 1.2vw;
     padding: 0 20px;
+}
+
+.project-case {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: Georgia, serif;
+  color: #000;
+}
+
+.project-case h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.project-case ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-case li {
+  margin-bottom: 10px;
+}
+
+.project-case p {
+  line-height: 1.7;
+}
+
+.project-case .button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0796E9;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
 }
