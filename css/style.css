@@ -290,3 +290,20 @@ footer ul li a {
   font-weight: bold;
   margin-top: 20px;
 }
+
+.custom-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+  /* Hanging indent for list items */
+  text-indent: -0.8em;
+}
+
+.custom-list li {
+  padding-left: 1.2em;
+}
+
+.custom-list li::before {
+  content: "•";
+  margin-right: 6px;
+}
