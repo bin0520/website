@@ -118,10 +118,23 @@ main {
     flex-direction: column;
 }
 
+.tox2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-width: 100vw;
+    min-width: 0;
+}
+
 .tox2 img {
     width: 100%;
-    height: 480px;
+    height: 100%;
+    object-fit: cover;
     margin-bottom: 20px;
+    max-width: 100vw;
+    min-width: 0;
 }
 
 .tox2 span {
@@ -306,4 +319,18 @@ footer ul li a {
 .custom-list li::before {
   content: "•";
   margin-right: 6px;
+}
+
+@media (max-width: 600px) {
+  .tox2 {
+    aspect-ratio: 16 / 9;
+    width: 100vw;
+    height: auto;
+    min-width: 0;
+  }
+  .tox2 img {
+    height: auto;
+    max-width: 100vw;
+    min-width: 0;
+  }
 }
