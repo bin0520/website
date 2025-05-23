@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #A37F7B;
+    background-color: #A8BF56;
     padding: 40px 20px;
 }
 
@@ -31,25 +31,26 @@ header {
 }
 
 .box ul li a {
-    color: #E5F4FD;
+    color: #fff;
     text-decoration: none;
 }
 
 .box2 {
     color: #fff;
     margin-right: 30px;
-    width: 34%;
-    font-size: 1.6vw;
+    width: 30%;
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 .box3 {
-    background-color: #9AA79C;
+    background-color: #B99AD9;
     padding: 15px 25px;
     margin-right: 30px;
 }
 
 .box3 a {
-    color: #261C16;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -186,3 +187,21 @@ main {
 .oo3 ul {
     line-height: 30px;
 }
+
+/* Add Font Awesome support for .fa-brands and .fa-twitter */
+.fa-brands {
+    font-family: 'Font Awesome 6 Brands', 'Font Awesome 5 Brands', 'FontAwesome', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    line-height: 1;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
