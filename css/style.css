@@ -93,11 +93,11 @@ main {
 }
 
 .item_span {
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 .item_span2 {
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 
 .item_span3 {
@@ -119,10 +119,11 @@ main {
     width: 32%;
     display: flex;
     flex-direction: column;
-    border: 2px dashed #A8BF56;
+    /* border: 2px dashed #A8BF56; */
     border-radius: 0px;
     box-shadow: 0 2px 8px rgba(185, 154, 217, 0.12);
     background: #fff;
+    border-radius: 30px;
 }
 
 .tox2 {
@@ -133,6 +134,7 @@ main {
     height: auto;
     max-width: 100vw;
     min-width: 0;
+    border-radius: 16px;
 }
 
 .tox2 img {
@@ -142,6 +144,7 @@ main {
     margin-bottom: 20px;
     max-width: 100vw;
     min-width: 0;
+    border-radius: 16px;
 }
 
 .tox2 span {
