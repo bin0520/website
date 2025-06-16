@@ -79,7 +79,7 @@ header {
 
 main {
     background-color: #F8F6F2;
-    color: #000;
+    color: #F8F6F2;
     padding-bottom: 160px;
 }
 
@@ -89,6 +89,15 @@ main {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+}
+
+.item img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 18px;
 }
 
 .item_span {
