@@ -191,3 +191,88 @@ footer ul li a {
 .fa-twitter:before {
     content: "\f099";
 }
+
+@media (max-width: 700px) {
+  header {
+    padding: 20px 8px;
+  }
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0;
+  }
+  .box, .box2, .box3 {
+    width: 100%;
+    text-align: left;
+    padding-left: 8px;
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+  .box ul {
+    gap: 20px;
+    padding-left: 0;
+  }
+  .box ul li {
+    margin-left: 0;
+  }
+  .bottom {
+    margin-top: 24px;
+    padding-bottom: 16px;
+  }
+  .bottom span {
+    font-size: 1.1em;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0 8px 40px 8px;
+    align-items: stretch;
+  }
+  .pox {
+    margin-top: 32px;
+    padding: 0 2px;
+  }
+  .pox span {
+    font-size: 1.2em;
+  }
+  .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .left, .right {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .kox img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    max-width: 340px;
+  }
+  .kox2 span:last-child {
+    margin-top: 12px;
+    line-height: 1.7;
+    text-align: left;
+  }
+  form {
+    line-height: 2.2;
+    font-size: 1em;
+  }
+  footer {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 40px 0 16px 0 !important;
+  }
+  footer ul li a {
+    font-size: 1em !important;
+    padding: 0 8px !important;
+  }
+  footer ul {
+    gap: 12px !important;
+  }
+  footer div, footer span {
+    font-size: 1em !important;
+  }
+}

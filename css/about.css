@@ -13,6 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .box {
@@ -204,5 +205,99 @@ main {
 
 .fa-twitter:before {
     content: "\f099";
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 20px 8px;
+  }
+   .top {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.box2 {
+  width: 100%;
+  text-align: center;
+  display: none !important;
+}
+
+.box3 {
+  width: 100%;
+  text-align: center;
+}
+
+  .box ul li a {
+    white-space: nowrap;
+  }
+  .bottom {
+    margin-top: 24px;
+    padding-bottom: 16px;
+  }
+  .bottom span {
+    font-size: 1.1em;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0 8px 40px 8px;
+  }
+  .pox, .pox2 {
+    font-size: 1em;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding: 0 2px;
+  }
+  .pox3 {
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1em;
+    line-height: 1.7;
+    padding: 0 2px 18px 2px;
+    align-items: flex-start;
+  }
+  .pox3 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    max-width: 340px;
+  }
+  .pox4 {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .pox4 span {
+    font-size: 1em;
+  }
+  .oo2 {
+    margin-top: 18px;
+  }
+  .oo3 ul {
+    line-height: 1.7;
+    padding-left: 0;
+  }
+  footer {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 40px 0 16px 0 !important;
+  }
+  footer ul li a {
+    font-size: 1em !important;
+    padding: 0 8px !important;
+  }
+  footer ul {
+    gap: 12px !important;
+  }
+  footer div, footer span {
+    font-size: 1em !important;
+  }
 }
 
